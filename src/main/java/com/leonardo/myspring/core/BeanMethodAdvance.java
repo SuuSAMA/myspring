@@ -18,8 +18,6 @@ public abstract class BeanMethodAdvance implements MethodInterceptor {
 
     private Object target;
 
-    private String proxyMethodName;
-
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         doBefore();
