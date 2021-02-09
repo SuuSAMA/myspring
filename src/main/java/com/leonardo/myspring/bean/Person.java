@@ -11,8 +11,8 @@ import com.leonardo.myspring.annotation.Component;
  */
 @Component
 public class Person {
-    private String name = "张三";
-    private Integer age = 26;
+    private String name = "Leonardo da Vinci";
+    private Integer age = 502;
 
     public String getName() {
         return name;
