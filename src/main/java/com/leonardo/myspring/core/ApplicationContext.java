@@ -13,13 +13,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Description:
- * Author: 邹良栋
- * CreateTime: 2021/2/5
- * Modifier: 邹良栋
- * UpdateTime: 2021/2/5
- */
+
 public class ApplicationContext {
     private final Map<String, BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<>(16);
     private final Map<String, Object> singletonObjects = new ConcurrentHashMap<>(16);

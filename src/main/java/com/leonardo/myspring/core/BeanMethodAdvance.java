@@ -7,13 +7,7 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.lang.reflect.Method;
 
-/**
- * Description:
- * Author: 邹良栋
- * CreateTime: 2021/2/7
- * Modifier: 邹良栋
- * UpdateTime: 2021/2/7
- */
+
 public abstract class BeanMethodAdvance implements MethodInterceptor {
 
     private Object target;
